@@ -3,9 +3,9 @@ Prendere due array della stessa lunghezza e generarne un terzo, prendendo altern
 es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
  */
 
-const lista1 = ['a', 'b', 'c', 'd', 'e'];
+const lista1 = ['a', 'b', 'c', 'd', 'e', 'd'];
 
-const lista2 = [1, 2, 3, 4, 5];
+const lista2 = [1, 2, 3, 4, 5, 6, 7];
 
 let lista3 = [];
 
