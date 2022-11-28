@@ -5,7 +5,7 @@ Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando l
 
 const list = [0];
 
-let requestedNumber = parseInt(prompt('Inserisci un numero'));
+let requestedNumber = 0;
 
 let sum = list[0] + requestedNumber;
 
