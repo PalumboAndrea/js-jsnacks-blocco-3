@@ -13,11 +13,21 @@
  console.log(Math.max(...startingList));
  console.log(Math.min(...startingList));
 
+let randomNumber;
 
+function checkRandomNumber(numberToCheck, array){
+    for ( let i= 0; i < array.lenght; i++) {
+        if (i=numberToCheck){
+            
+        }
+    }
+}
 
 
  for ( let i= 0; i < 10; i++){
-    endingList.push(Math.floor(Math.random() * (Math.max(...startingList) - Math.min(...startingList) + 1) + Math.min(...startingList)));
+    randomNumber = Math.floor(Math.random() * (Math.max(...startingList) - Math.min(...startingList) + 1) + Math.min(...startingList));
+    endingList.push(randomNumber);
+    
  }
 
  console.log(endingList);
