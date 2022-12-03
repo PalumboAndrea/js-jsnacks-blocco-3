@@ -57,13 +57,13 @@ function askNumber (level, array1, array2){
     let win;
     for (i=0; i<level; i++){
         if (array1[i] == array2[i]){
-            win = 1;
+            win = true;
         } else {
-            win = 0;
+            win = false;
         }   
     }
     
-    if (win == 1){
+    if (win){
         let youWon = document.createElement('h1');
         winOrNot.append(youWon);
         youWon.innerHTML = 'HAI VINTO!';
